@@ -445,12 +445,12 @@ Adhering to a standardized workflow ensures strict delivery discipline and trans
 ## 24. Sprint Management in Jira
 
 ### Step-by-Step Execution
-![Sprint board](https://dam-cdn.atl.orangelogic.com/AssetLink/ory70n6330e16ufi2803xv752ko37r03.gif)
 1. **Create Sprint:** Navigate to the Backlog view and click the **Create Sprint** button at the top of the interface.
 2. **Populate Scope:** Drag stack-ranked user stories from the product backlog into the newly created sprint footprint until capacity limits are reached.
 3. **Start Sprint:** Click **Start Sprint**, define the precise duration (1 or 2 weeks), and clearly document the overarching **Sprint Goal**.
 4. **Track Progress:** Utilize the Active Sprints board daily to manage the clean movement of tickets from left to right.
 5. **Close Sprint:** On the final day of the iteration, select **Complete Sprint**. Jira will automatically prompt you to move incomplete stories into the next sprint or return them to the global backlog.
+![Sprint board](https://dam-cdn.atl.orangelogic.com/AssetLink/ory70n6330e16ufi2803xv752ko37r03.gif)
 
 ### Summary
 
@@ -490,7 +490,7 @@ All work items—whether they are business requests, process improvements, syste
 All project artifacts, updates, approvals, documentation, and deliverables should reference the associated Jira ticket. For teams performing software development, the relevant Jira issue key must also be included in Git branches and pull request titles to maintain end-to-end visibility and traceability of work progress.
 * **Single Source of Truth**
 Jira serves as the official system of record for planning, prioritization, status tracking, ownership, and reporting across all departments. Work performed outside of a tracked ticket will not be considered part of the approved project scope.
-
+![Jira calender](https://dam-cdn.atl.orangelogic.com/AssetLink/q456c40j8drs7f7g75iqnnccyko33374.png)
 ---
 
 ## 27. Issue and Defect Management
