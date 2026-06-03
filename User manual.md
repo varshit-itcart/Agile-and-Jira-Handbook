@@ -96,7 +96,6 @@ While the elements on the right hold undeniable operational value, the organizat
 Agile serves as the overarching philosophy, while specific frameworks provide concrete implementation tactics.
 
 ![Agile Frameworks Comparison](https://images.unsplash.com/photo-1508962914676-134849a727f0?auto=format&fit=crop&w=1000&q=80)
-*Figure: Structural workflow differences between continuous delivery and iterative tracking.*
 
 * **Scrum:** A structured framework optimized for managing complex product development through fixed-length iterations.
 * **Kanban:** A continuous flow framework focused on visualizing work, maximizing efficiency, and strictly limiting Work in Progress (WIP).
@@ -430,12 +429,14 @@ Adhering to a standardized workflow ensures strict delivery discipline and trans
 
 * **Scrum Boards:** Built for active sprint management. Displays the Backlog planning view alongside active Sprint views, prioritizing commitment against velocity metrics.
 * **Kanban Boards:** Built for continuous operational flows (e.g., DevOps, Infrastructure, or Platform Support). Relies heavily on **WIP Limits** configured directly inside column settings to flag delivery blocks early.
+![Kanban Board](https://dam-cdn.atl.orangelogic.com/AssetLink/dy146y7jea1k22b8t1a3muk5e1300y45.png)
 
 ---
 
 ## 23. Backlog Management in Jira
 
 * **Stack Ranking:** The Product Owner must rank the product backlog in Jira by dragging the highest priority tickets to the very top. Engineers should always pull outstanding work from the top of the column.
+![Backlogs](https://dam-cdn.atl.orangelogic.com/AssetLink/0ta0g03wb3o14pshw7j635pcm4c2uur4.png)
 * **Grooming/Refinement:** Use the backlog view to rapidly update fields, append acceptance criteria, and input story point metrics during planning sessions.
 
 ---
@@ -482,28 +483,33 @@ So that [Business Value]
 ---
 
 ## 26. Task Tracking Standards
-
-* **No Ticket, No Work:** Every single development task, architectural spike, or internal technical configuration item must have a unique Jira ticket.
-* **Git Integration:** Developers must include their specific Jira issue key (e.g., `PAY-402`) in their Git branch names and pull request titles. This integration automatically displays live code status links directly in the Jira ticket view.
+* **No Ticket, No Work:** 
+All work items—whether they are business requests, process improvements, system changes, investigations, configurations, development activities, or operational tasks—must be logged and tracked through a unique Jira ticket before work begins.
+* **Work-to-Ticket Traceability**
+All project artifacts, updates, approvals, documentation, and deliverables should reference the associated Jira ticket. For teams performing software development, the relevant Jira issue key must also be included in Git branches and pull request titles to maintain end-to-end visibility and traceability of work progress.
+* **Single Source of Truth**
+Jira serves as the official system of record for planning, prioritization, status tracking, ownership, and reporting across all departments. Work performed outside of a tracked ticket will not be considered part of the approved project scope.
 
 ---
 
-## 27. Bug Management
+## 27. Issue and Defect Management
 
-Defects caught during active testing or reported from live production environments must use the specialized **Bug** issue type.
+Issues, defects, errors, process failures, system malfunctions, or unexpected behaviors identified during testing, business operations, user acceptance activities, or production use must be logged using the designated **Bug** issue type in Jira.
 
 ### Mandatory Bug Reporting Fields
 
-1. **Steps to Reproduce:** A step-by-step list detailing how to recreate the bug.
-2. **Expected Behavior:** What the software should do under standard conditions.
-3. **Actual Behavior:** What the software actually does, including explicit stack traces or error log outputs.
-4. **Environment:** Staging, UAT, Production, alongside browser/OS details.
+1. **Steps to Reproduce:** A clear, step-by-step description of the actions required to recreate the issue.
+2. **Expected Outcome:** A description of the intended or expected result under normal operating conditions.
+3. **Actual Outcome:** A description of what occurred instead, including any error messages, screenshots, logs, or supporting evidence where available.
+4. **Environment Details:** The environment in which the issue was observed (e.g., Development, Testing, UAT, Staging, or Production), along with relevant browser, device, operating system, or application details.
+5. **Business Impact:** A brief description of how the issue affects users, business processes, operations, compliance requirements, or service delivery.
+6. **Severity and Priority:** The assessed impact and urgency of the issue to support effective triage and resolution planning.
 
 ---
 
 ## 28. Time Logging
 
-To maintain precise project capitalization mapping and operational tracking, developers must log their effort directly on individual Jira tickets.
+To maintain precise project capitalization mapping and operational tracking, member must log their effort directly on individual Jira tickets.
 
 * Use the native **Log Work** action panel daily.
 * Input time metrics cleanly in standard notation formats (e.g., `2h 30m` for two hours and thirty minutes).
