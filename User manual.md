@@ -95,6 +95,9 @@ While the elements on the right hold undeniable operational value, the organizat
 
 Agile serves as the overarching philosophy, while specific frameworks provide concrete implementation tactics.
 
+![Agile Frameworks Comparison](https://images.unsplash.com/photo-1508962914676-134849a727f0?auto=format&fit=crop&w=1000&q=80)
+*Figure: Structural workflow differences between continuous delivery and iterative tracking.*
+
 * **Scrum:** A structured framework optimized for managing complex product development through fixed-length iterations.
 * **Kanban:** A continuous flow framework focused on visualizing work, maximizing efficiency, and strictly limiting Work in Progress (WIP).
 * **Extreme Programming (XP):** A framework emphasizing rigorous engineering practices like Test-Driven Development (TDD) and Pair Programming.
