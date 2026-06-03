@@ -362,7 +362,7 @@ Jira serves as the digital engine that enables enterprise visibility, automated 
 
 To maintain data integrity across company reporting, tasks must map accurately to Jira's underlying structural tiers:
 
-```text
+<!-- ```text
  ┌─────────────────────────────────────────────────────────┐
  │                       1. EPIC                           │ ──> Focus: Major Feature / Core Initiative
  └───────────────────────────┬─────────────────────────────┘
@@ -379,7 +379,8 @@ To maintain data integrity across company reporting, tasks must map accurately t
   │3. SUB-TASK│ │3. SUB-TASK│   │3. SUB-TASK│ │3. SUB-TASK│ ──> Focus: Individual Developer Action Steps
   └───────────┘ └───────────┘   └───────────┘ └───────────┘
 
-```
+``` -->
+![Jira Hierarchy](https://dam-cdn.atl.orangelogic.com/AssetLink/1bw0xel84278wce3kmc238gc4710mam8.png)
 
 1. **Epic:** Houses complex cross-functional initiatives spanning multiple sprints.
 2. **User Stories / Tasks / Bugs:** Standard standard issue types representing discrete units of deliverable work.
@@ -444,7 +445,7 @@ Adhering to a standardized workflow ensures strict delivery discipline and trans
 ## 24. Sprint Management in Jira
 
 ### Step-by-Step Execution
-
+![Sprint board](https://dam-cdn.atl.orangelogic.com/AssetLink/ory70n6330e16ufi2803xv752ko37r03.gif)
 1. **Create Sprint:** Navigate to the Backlog view and click the **Create Sprint** button at the top of the interface.
 2. **Populate Scope:** Drag stack-ranked user stories from the product backlog into the newly created sprint footprint until capacity limits are reached.
 3. **Start Sprint:** Click **Start Sprint**, define the precise duration (1 or 2 weeks), and clearly document the overarching **Sprint Goal**.
