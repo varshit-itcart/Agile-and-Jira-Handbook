@@ -57,7 +57,7 @@ Provide a foundational understanding of Agile and its enterprise value.
 * **Customer Feedback Loops:** Continuous product updates provide frequent user data, shifting the product roadmap dynamically based on market reality instead of static up-front assumptions.
 
 ![Agile vs Waterfall](https://images.unsplash.com/photo-1531403009284-440f080d1e12?auto=format&fit=crop&w=1000&q=80)
-*Figure 1: Comparison showing sequential Waterfall phases vs. iterative Agile cycles.*
+
 
 ### Real-World Example
 A banking application group shifts away from a single, massive annual software drop. Instead, they roll out specific high-value feature enhancements—like biometric login or peer-to-peer transfers—every 2 weeks, optimizing based on immediate user adoption metrics.
@@ -526,6 +526,8 @@ Project leads must maintain automated Jira Dashboards to track delivery efficien
 * **Created vs. Resolved Chart:** Tracks incoming bugs against resolution velocities to confirm team stability.
 * **Filter Results (Blocked Work):** Uses JQL (`status = Blocked OR flagged = Impediment`) to isolate team bottlenecks.
 * **Sprint Health Gadget:** Visualizes current sprint time remaining against story completion status.
+
+![Sprint burnup chart](https://dam-cdn.atl.orangelogic.com/AssetLink/0m7y0x4wdo4p8t8ib3owvb68y1831qq4.png)
 
 ---
 
