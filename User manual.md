@@ -110,18 +110,16 @@ Understand Scrum pillars and formal execution flow.
 
 
 ```
-
 ┌─────────────────┐       ┌─────────────────┐       ┌──────────────────┐
 │ Product Backlog │ ───>  │ Sprint Planning │ ───>  │ Sprint Execution │
 └─────────────────┘       └─────────────────┘       └────────┬─────────┘
-▲                                                    │
-│                  ┌─────────────────┐               ▼
-└──────────────────│  Retrospective  │ <───  ┌──────────────────┐
-└─────────────────┘       │   Sprint Review  │
-└──────────────────┘
+        ▲                                                    │
+        │                  ┌─────────────────┐               ▼
+        └──────────────────│  Retrospective  │ <───  ┌──────────────────┐
+                           └─────────────────┘       │   Sprint Review  │
+                                                     └──────────────────┘
 
 ```
-*Figure 2: Full Scrum flow illustrating structural iterations.*
 
 ### Real-World Example
 A telecom delivery team discovers during their mid-sprint review that a third-party dependency is severely delayed. Guided by the pillar of *Adaptation*, they work alongside the Product Owner to immediately swap out the blocked user stories for independent database optimizations from the top of the backlog.
