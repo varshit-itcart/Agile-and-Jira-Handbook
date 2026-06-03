@@ -75,6 +75,9 @@ Agile fundamentally enables faster speed-to-market, mitigated risk, and unmatche
 
 ## 2. Agile Values and Principles
 
+![Agile Values Manifesto](https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?auto=format&fit=crop&w=1000&q=80)
+*Figure: Team collaborating on core value alignment and cultural principles.*
+
 The bedrock of any agile transformation relies on internalizing the four core values defined in the Agile Manifesto.
 
 ### The 4 Core Values
