@@ -1,7 +1,7 @@
 
 # Agile Delivery and Jira Operating Handbook
 
-**Author:** Varshit Ratna K, PMP (r), Agile Coach, Tech Delivery Manager  
+**Author:** Varshit Ratna K, PMP®, Agile Coach, Tech Delivery Manager  
 **Purpose:** This handbook serves as the single source of truth for Agile and Jira adoption across the organization.
 
 ---
